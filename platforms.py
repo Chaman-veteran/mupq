@@ -192,6 +192,7 @@ class ChipWhisperer(mupq.Platform):
         self.flash(binary_path)
         self.target.flush()
         self.reset_target()
+        self.scope.arm()
         data = ''
         # Wait for the first equal sign
         while '=' not in data:
