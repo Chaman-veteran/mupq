@@ -4,7 +4,7 @@
 
 #include <string.h>
 
-#define NTESTS 10
+#define NTESTS 25
 
 // https://stackoverflow.com/a/1489985/1711232
 #define PASTER(x, y) x##y
